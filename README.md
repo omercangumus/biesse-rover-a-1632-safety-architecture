@@ -2,6 +2,8 @@
 
 Bu depo, Biesse Rover A 1632 Smart 5 eksen CNC ahşap işleme merkezi için kamuya açık kaynaklara dayalı bir ön güvenlik ve siber güvenlik incelemesidir. Kullanıcı tarafından paylaşılan çalışma kâğıdındaki Lab 3 risk matrisi ve Lab 4 uzaktan erişim yapısı korunmuştur.
 
+> **Ana teslim:** [İlk dört hafta güvenlik incelemesi - PDF](Biesse-Rover-A-1632-Safety-Review.pdf). Aşağıdaki Markdown dosyaları düzenlenebilir çalışma kaynaklarıdır.
+
 ## Dosyalar
 
 | Hafta | Çalışma | Çıktı |
