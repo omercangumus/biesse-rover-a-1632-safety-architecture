@@ -25,3 +25,16 @@ Bu projede yalnızca kamuya açık kaynaklar kullanılmıştır. AİMSAD/SAMİB 
 
 Kılavuzdaki bilgiler “belgede doğrulandı” olarak, kaynakta bulunmayan ağ ve kurulum bilgileri “açık soru” olarak işaretlenmiştir. Puanlar ve hedef gereksinimler teknik inceleme taslağıdır; saha testi veya uygunluk sertifikasyonu yerine geçmez.
 
+
+## 4. Zafiyet, SBOM ve OT yama yönetimi
+
+- [NIST SP 800-82 Rev. 3 — Guide to Operational Technology Security](https://csrc.nist.gov/pubs/sp/800/82/r3/final)
+- OT varlıklarında yama yönetiminin belgeli olmasını; yamanın nasıl test edileceğinin, ne zaman uygulanacağının ve yama gecikirse hangi telafi edici önlemlerin kullanılacağının belirlenmesini önerir. OT yama dağıtımının planlı duruşta ve yetkin personelce yapılmasını belirtir.
+- [CISA — Securing the Software Supply Chain: Recommended Practices for SBOM Consumption](https://www.cisa.gov/sites/default/files/2024-08/SECURING_THE_SOFTWARE_SUPPLY_CHAIN_RECOMMENDED_PRACTICES_FOR_SOFTWARE_BILL_OF_MATERIALS_CONSUMPTION-508.pdf)
+- SBOM'ların bileşen görünürlüğü ve CVE/VEX ile zafiyet takibinde kullanımını açıklar. OT'de yama operasyonel etki yaratabiliyorsa ağ segmentasyonu, hizmeti devre dışı bırakma ve diğer risk azaltma seçeneklerini ele alır.
+- [NIST National Vulnerability Database — Vulnerability Detail Pages](https://nvd.nist.gov/vuln/Vulnerability-Detail-Pages)
+- CVE kayıtlarının ürün/sürüm eşlemesi ve CVSS'nin bir zafiyetin ciddiyetini gösteren ölçü olarak yorumlanması için kullanılır. CVSS puanı tek başına bu makinedeki gerçek riski veya uygulanabilirliği kanıtlamaz.
+
+## 5. hafta senaryo notu
+
+`CVE-XXXX-XXXX` kasıtlı bir yer tutucudur. Component X, 2.4 sürümü, Critical/CVSS 9.8 ve yama mevcut bilgileri yalnızca ders föyünün varsayımsal senaryosudur; Biesse Rover A 1632 Smart için gerçek SBOM, yazılım sürümü, CVE kaydı veya üretici yaması olarak gösterilmez. Makineye özgü uygulanabilirlik kamuya açık kılavuzdan belirlenememiştir.
