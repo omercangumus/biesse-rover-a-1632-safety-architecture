@@ -38,3 +38,15 @@ Kılavuzdaki bilgiler “belgede doğrulandı” olarak, kaynakta bulunmayan ağ
 ## 5. hafta senaryo notu
 
 `CVE-XXXX-XXXX` kasıtlı bir yer tutucudur. Component X, 2.4 sürümü, Critical/CVSS 9.8 ve yama mevcut bilgileri yalnızca ders föyünün varsayımsal senaryosudur; Biesse Rover A 1632 Smart için gerçek SBOM, yazılım sürümü, CVE kaydı veya üretici yaması olarak gösterilmez. Makineye özgü uygulanabilirlik kamuya açık kılavuzdan belirlenememiştir.
+
+## 5. CRA bildirim süreleri
+
+- [(AB) 2024/2847 - Cyber Resilience Act](https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng), madde 14.
+- 6. haftada aktif istismar edilen açıklık ile ürün güvenliğini etkileyen ciddi olay için iki ayrı son rapor süresi kullanılır.
+- Kaynak, belirli Biesse makinesinin kapsamda olduğunu veya senaryodaki olayın yaşandığını kanıtlamaz.
+
+## 6. Yapay zekâ risk yönetimi
+
+- [NIST AI RMF 1.0 - NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf), özellikle MEASURE 2.4-2.6.
+- 7. haftanın izleme, güvenilirlik ve güvenli başarısızlık yaklaşımına dayanak sağlar.
+- Kamera/YZ akışı, HOLD ve insan onayı eğitim senaryosuna ait tasarım kararlarıdır. Kaynak Biesse'de belirli bir YZ özelliği bulunduğunu göstermez.
